@@ -136,3 +136,86 @@ footer {
   opacity: .8;
   padding: 2% 5%;
 }
+
+
+
+/* media queries */
+@media only screen and (max-width: 768px) {
+  section {
+    padding-top: 3%;
+  }
+
+  /* header */
+  header {
+    padding: 2% 2% 0;
+  }
+
+  .header-img,
+  .about-text {
+    width: 100% !important;
+  }
+
+  .self-img {
+    max-width: 40vw;
+    right: 30vw;
+    top: 10vh;
+  }
+
+  .about-text {
+    margin-left: 0;
+    margin-top: 2vh;
+    padding: 5%;
+  }
+
+
+  /* skills */
+  .skills-column {
+    padding-left: 4vw;
+    width: 44% !important;
+  }
+
+
+  /* projects */
+  .project {
+    height: auto;
+    margin-bottom: 5vh;
+    position: static;
+  }
+
+  .project-img {
+    max-height: 100%;
+    max-width: 90vw;
+    position: static;
+  }
+
+  .project-text {
+    max-width: 90vw;
+    padding: 5%;
+    position: static;
+  }
+
+
+  /* experience */
+  .experience-content {
+    padding-bottom: 4vh;
+  }
+
+  /* footer */
+  footer h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (min-width: 769px) and (orientation: portrait) {
+  .project {
+    height: 40vh;
+    margin-bottom: 4vh;
+  }
+}
+
+@media only screen and (min-width: 769px) and (orientation: landscape) {
+  /* .project {
+    height: 80vh;
+  } */
+}
