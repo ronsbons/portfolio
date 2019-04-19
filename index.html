@@ -12,6 +12,8 @@
   <!-- Skeleton CSS -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <!-- FontAwesome icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <!-- my CSS -->
   <link href="styles.css" rel="stylesheet">
 
@@ -21,16 +23,21 @@
 <body>
   <header class="row">
     <div class="one-half column header-img">
-      <img src="images/2.png" alt="Western Australia ocean rocks" class="u-max-full-width">
-      <img src="images/ronni.jpg" alt="ronni" class="self-img">
+      <img src="images/2.png" alt="Western Australia ocean rocks" title="Western Australia, taken by ronni" class="u-max-full-width">
+      <img src="images/ronni.jpg" alt="ronni" title="ronni" class="self-img">
     </div>
     <div class="one-third column about-text">
       <h2>ronni</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ante neque, faucibus rhoncus convallis sed, egestas sit amet dolor. Aenean sed erat ullamcorper, semper nibh vel, gravida nulla. Donec ac eleifend felis, sit amet finibus est. Aliquam eget mi sit amet massa rutrum euismod a non massa. Quisque accumsan elit sed turpis blandit, eu hendrerit mi mollis. Phasellus pulvinar in leo quis laoreet. Nullam gravida lacus neque, quis lobortis diam viverra eget. Nullam non eleifend nunc. Suspendisse potenti.</p>
+      <p class="header-icons">
+        <a href="mailto:ronnilouie@gmail.com" title="email me" class="icon"><i class="far fa-envelope fa-lg"></i></a>
+        <a href="https://www.linkedin.com/in/ronni-louie/" title="find me on LinkedIn" class="icon"><i class="fab fa-linkedin fa-lg"></i></a>
+        <a href="https://github.com/ronsbons" title="see my GitHub" class="icon"><i class="fab fa-github fa-lg"></i></a>
+      </p>
     </div>
   </header>
 
-  <section class="row skills">
+  <section class="row">
     <h4>skills</h4>
     <div class="three columns">
       <h5>languages</h5>
@@ -67,32 +74,61 @@
     </div>
   </section>
   
-  <section class="projects">
+  <section class="">
+    <h4>projects</h4>
     <div class="project">
-      <a href="http://protected-ravine-34035.herokuapp.com"><img src="images/DeTour.png" class="project-img detour-img"></a>
+      <a href="http://protected-ravine-34035.herokuapp.com"><img src="images/DeTour.png" alt="DeTour project landing page" title="DeTour project" class="project-img detour-img"></a>
       <div class="project-text detour-text">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ante neque, faucibus rhoncus convallis sed, egestas sit amet dolor. Aenean sed erat ullamcorper, semper nibh vel, gravida nulla. Donec ac eleifend felis, sit amet finibus est. Aliquam eget mi sit amet massa rutrum euismod a non massa. Quisque accumsan elit sed turpis blandit, eu hendrerit mi mollis. Phasellus pulvinar in leo quis laoreet. Nullam gravida lacus neque, quis lobortis diam viverra eget. Nullam non eleifend nunc. Suspendisse potenti.</p>
-        <p><a href="http://protected-ravine-34035.herokuapp.com">DeTour</a> <a href="https://github.com/ronsbons/detour-frontend">GitHub</a></p>
+        <p><a href="http://protected-ravine-34035.herokuapp.com" class="project-link">DeTour</a> <a href="https://github.com/ronsbons/detour-frontend" class="project-link">GitHub</a></p>
       </div>
     </div>
 
     <div class="project">
-        <a href="https://github.com/ch264/hangry"><img src="images/Hangry.png" class="project-img hangry-img"></a>
+        <a href="https://github.com/ch264/hangry"><img src="images/Hangry.png" alt="Hangry project landing page" title="Hangry project" class="project-img hangry-img"></a>
       <div class="project-text hangry-text">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ante neque, faucibus rhoncus convallis sed, egestas sit amet dolor. Aenean sed erat ullamcorper, semper nibh vel, gravida nulla. Donec ac eleifend felis, sit amet finibus est. Aliquam eget mi sit amet massa rutrum euismod a non massa. Quisque accumsan elit sed turpis blandit, eu hendrerit mi mollis. Phasellus pulvinar in leo quis laoreet. Nullam gravida lacus neque, quis lobortis diam viverra eget. Nullam non eleifend nunc. Suspendisse potenti.</p>
-        <p><a href="https://github.com/ch264/hangry">GitHub</a></p>
+        <p><a href="https://github.com/ch264/hangry" class="project-link">GitHub</a></p>
       </div>
     </div>
+  </section>
+
+  <section class="experience">
+    <h4>education and professional experience</h4>
+    <div class="row experience-content">
+      <div class="one-half column">
+        <h5><i class="fas fa-laptop fa-sm"></i> general assembly</h5>
+        <p>web development immersive</p>
+        <p>January - April 2019 &mdash; San Francisco, CA</p>
+    
+        <h5><i class="fas fa-graduation-cap fa-sm"></i>university of southern california</h5>
+        <p>bachelor's of science, business administration</p>
+        <p>minor in cinema-television</p>
+        <p>August 2006 - May 2010 &mdash; Los Angeles, CA</p>      
+      </div>
+
+      <div class="one-half column">
+        <h5><i class="fas fa-briefcase fa-sm"></i> swisher productions</h5>
+        <p>freelance event producer &mdash; June 2017 - November 2018</p>
+        <p>event producer &mdash; December 2015 - January 2017</p>
+        <p>events project manager &mdash; May 2014 - December 2015</p>
+        <p>Los Angeles, CA</p>
+
+        <h5><i class="fas fa-briefcase fa-sm"></i> cbs films</h5>
+        <p>regional publicity & promotions coordinator</p>
+        <p>July 2012 - May 2014 &mdash; Los Angeles, CA</p>
+      </div>
+    </div>    
   </section>
 
   <footer>
     <h2 class="">
       ronni
-      <span class="u-pull-right">
-        <a href="mailto:ronnilouie@gmail.com">email</a>
-        <a href="https://www.linkedin.com/in/ronni-louie/">linkedin</a>
-        <a href="https://github.com/ronsbons">github</a>    
-      </span>
+      <div class="u-pull-right">
+        <a href="mailto:ronnilouie@gmail.com" title="email me" class=""><i class="far fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/ronni-louie/" title="find me on LinkedIn" class=""><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/ronsbons" title="see my GitHub" class=""><i class="fab fa-github"></i></a>    
+      </div>
     </h2>
   </footer>
 
