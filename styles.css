@@ -111,21 +111,12 @@ header {
   margin-right: 2%;
 }
 
-.detour-img{
+.project-right{
   right: 4vw;
 }
 
-.detour-text {
+.project-left {
   left: 4vw;
-}
-
-
-.hangry-img {
-  left: 4vw;
-}
-
-.hangry-text {
-  right: 4vw;
 }
 
 
